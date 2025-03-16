@@ -50,19 +50,12 @@ Run the Detection Script:
 python app.py
 ```
 
-**Expected Output:**
-
-* The script will load a video or webcam feed.
-* It will detect pedestrians and highlight them using bounding boxes.
-
 ## 🛠 Customization
 
 Modify `cv2.VideoCapture()` in `detect_pedestrians.py` to:
 
 * Use a video file → `cv2.VideoCapture("video.mp4")`
 * Use a webcam → `cv2.VideoCapture(0)`
-
-Tune detection parameters in the script for better accuracy.
 
 ## ⚡ Features
 
