@@ -50,6 +50,25 @@ Run the Detection Script:
 python app.py
 ```
 
+## 📊 Output / Results
+
+Here are some sample outputs and a demo video of the pedestrian detection system in action.
+
+🖼️ *Screenshots*
+
+<p align="center">
+  <img src="screenshots/Output.png" alt="Detection Output" width="400"/>
+</p>
+
+🎥 *Demo Video*
+
+<p align="center">
+  <img src="screenshots/demo.gif" alt="Detection Demo GIF" width="600"/>
+</p>
+
+
+📝 Note:
+
 ## 🛠 Customization
 
 Modify `cv2.VideoCapture()` in `detect_pedestrians.py` to:
